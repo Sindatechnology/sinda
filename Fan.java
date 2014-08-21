@@ -13,7 +13,6 @@ public class Fan {
     private boolean on;
     private double radius;
     private String color;
-    private String sd;
     
     //¿‡≥£¡ø
     public static final int SLOW = 1;
