@@ -5,16 +5,23 @@
  * @author 
  * @version 1.00 2014/4/26
  */
-
-
 public class Fan {
     //私有数据域
     private int speed;
     private boolean on;
     private double radius;
     private String color;
+    private String ed;
     
-    //类常量
+    public String getEd() {
+		return ed;
+	}
+
+	public void setEd(String ed) {
+		this.ed = ed;
+	}
+
+	//类常量
     public static final int SLOW = 1;
     public static final int MEDIUM = 2;
     public static final int FAST = 3;    
